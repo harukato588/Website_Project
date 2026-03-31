@@ -1,0 +1,414 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/layout/Footer.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__eNA9m {
+  background: var(--bg3);
+  border-top: 1px solid var(--border);
+  padding: 40px 5% 24px;
+}
+
+.Footer_top__c3EOc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.Footer_brand__Lj6Sp {
+  max-width: 260px;
+}
+
+.Footer_brandName__LdGDm {
+  font-family: "Syne", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.Footer_brandName__LdGDm span {
+  color: var(--blue2);
+}
+
+.Footer_brandDesc__JyP2_ {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.Footer_linksTitle___4RXa {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.Footer_links__13oK3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Footer_link___mmVB {
+  font-size: 12px;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.Footer_link___mmVB:hover {
+  color: var(--text);
+}
+
+.Footer_bottom__ch0uR {
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--muted);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.Footer_bigText__ocuB7 {
+  text-align: center;
+  padding: 24px 0 0;
+  font-family: "Syne", sans-serif;
+  font-size: clamp(1.5rem, 5vw, 3.5rem);
+  font-weight: 800;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--border);
+  letter-spacing: -1px;
+  line-height: 1;
+  overflow: hidden;
+}
+
+.Footer_bigAccent__60vVg {
+  -webkit-text-stroke: 1px rgba(59, 127, 245, 0.4);
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/layout/Navbar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_nav___WITp {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(10, 12, 20, 0.92);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 5%;
+}
+
+.Navbar_inner__Zc9of {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.Navbar_logo__Am5h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.Navbar_logoIcon__Glpg8 {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--blue), #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  font-size: 11px;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.Navbar_logoText__WcSgJ {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.Navbar_logoAccent__ymUth {
+  color: var(--blue2);
+}
+
+.Navbar_links__c080l {
+  display: flex;
+  gap: 28px;
+}
+
+.Navbar_link__wMX_K {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.Navbar_link__wMX_K:hover {
+  color: var(--text);
+}
+
+.Navbar_cta__X3jE5 {
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  text-decoration: none;
+}
+
+.Navbar_cta__X3jE5:hover {
+  opacity: 0.85;
+}
+
+/* Hamburger */
+.Navbar_hamburger__HA1m5 {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.Navbar_bar__vPDRn {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: all 0.2s;
+}
+
+.Navbar_barOpen__KixlS {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--blue2);
+  border-radius: 2px;
+}
+
+/* Mobile Menu */
+.Navbar_mobileMenu__XFNzn {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 5% 20px;
+  border-top: 1px solid var(--border);
+  gap: 4px;
+}
+
+.Navbar_mobileLink___PlsO {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  transition: color 0.2s;
+}
+
+.Navbar_mobileLink___PlsO:hover {
+  color: var(--text);
+}
+
+.Navbar_mobileCta___lbFE {
+  margin-top: 12px;
+  background: var(--blue);
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .Navbar_links__c080l {
+    display: none;
+  }
+  .Navbar_cta__X3jE5 {
+    display: none;
+  }
+  .Navbar_hamburger__HA1m5 {
+    display: flex;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/sections/DivisiGrid.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.DivisiGrid_section__Zs9lD {
+    background : var(--bg);
+    padding: 56px 5% 80px;
+}
+
+.DivisiGrid_grid__rxqvr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    gap: 20px;
+}
+
+
+.DivisiGrid_card__loRgH {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  border: 1px solid var(--border);
+  transition: transform 0.3s, border-color 0.3s;
+}
+ 
+.DivisiGrid_card__loRgH:hover {
+  transform: translateY(-4px);
+  border-color: rgba(59, 127, 245, 0.5);
+}
+ 
+/* Highlight card pertama (aktif/featured) */
+.DivisiGrid_card__loRgH:first-child {
+  border-color: var(--blue);
+}
+ 
+.DivisiGrid_cardBg__agXBs {
+  position: absolute;
+  inset: 0;
+}
+ 
+.DivisiGrid_cardImg__RLGja {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+  filter: grayscale(20%);
+}
+ 
+.DivisiGrid_card__loRgH:hover .DivisiGrid_cardImg__RLGja {
+  transform: scale(1.05);
+}
+ 
+.DivisiGrid_cardOverlay___tYjq {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(5, 7, 16, 0.92) 0%,
+    rgba(5, 7, 16, 0.5) 50%,
+    rgba(5, 7, 16, 0.2) 100%
+  );
+  transition: background 0.3s;
+}
+ 
+.DivisiGrid_card__loRgH:hover .DivisiGrid_cardOverlay___tYjq {
+  background: linear-gradient(
+    to top,
+    rgba(5, 7, 16, 0.95) 0%,
+    rgba(10, 30, 80, 0.6) 50%,
+    rgba(10, 30, 80, 0.25) 100%
+  );
+}
+ 
+/* Arrow */
+.DivisiGrid_arrow__9xP39 {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  transition: color 0.2s, transform 0.2s;
+}
+ 
+.DivisiGrid_card__loRgH:hover .DivisiGrid_arrow__9xP39 {
+  color: var(--blue2);
+  transform: translate(2px, -2px);
+}
+ 
+/* Content */
+.DivisiGrid_cardContent__0ybgs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 20px 24px;
+}
+ 
+.DivisiGrid_cardName___w_9S {
+  font-family: "Syne", sans-serif;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 6px;
+  line-height: 1.3;
+  transition: color 0.2s;
+}
+ 
+.DivisiGrid_card__loRgH:hover .DivisiGrid_cardName___w_9S {
+  color: var(--blue2);
+}
+ 
+.DivisiGrid_cardDesc__S9Ovg {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5;
+  margin-bottom: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+ 
+.DivisiGrid_cardStats__Xa5j5 {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+ 
+.DivisiGrid_statBadge___Z8N_ {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 11px;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+ 
+@media (max-width: 768px) {
+  .DivisiGrid_grid__rxqvr {
+    grid-template-columns: 1fr;
+  }
+  .DivisiGrid_card__loRgH {
+    aspect-ratio: 4 / 3;
+  }
+}
