@@ -7,3 +7,7 @@ Website resmi **Forum Penalaran Penelitian Ilmiah (FPPI)** dibangun dengan Next.
 1. Install dependencies:
    ```bash
    npm install
+
+2. lalu jalankan:
+   ```bash
+   npm run dev
