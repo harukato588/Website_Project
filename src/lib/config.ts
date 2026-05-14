@@ -109,7 +109,7 @@ export const divisiData = [
       { nama: "Nama Ketua", jabatan: "Ketua Umum", foto: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=70" },
       { nama: "Nama Wakil", jabatan: "Wakil Ketua", foto: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=70" },
       { nama: "Nama Sekretaris", jabatan: "Sekretaris", foto: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=70" },
-      { nama: "Nama Bendahara", jabatan: "bendahara", foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=70"}
+      { nama: "Nama Bendahara", jabatan: "bendahara", foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=70" }
     ],
   },
   {
@@ -122,8 +122,8 @@ export const divisiData = [
     anggota: [
       { nama: "Nama Kepala Divisi", jabatan: "Kepala Divisi", foto: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=70" },
       { nama: "Nama Anggota 1", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=70" },
-      {nama: "Nama Aggota 2", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=70" },
-      {nama: "Nama Anggota 3", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=70" },
+      { nama: "Nama Aggota 2", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=70" },
+      { nama: "Nama Anggota 3", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=70" },
     ],
   },
   {
@@ -135,9 +135,9 @@ export const divisiData = [
     jumlahProgram: 5,
     anggota: [
       { nama: "Dylan putry Setyono", jabatan: "Kepala Divisi", foto: "/image/Screenshot 2026-03-30 122807.png" },
-      {nama: "Irsan Ali Wardaana", jabatan: "Anggota", foto: "/image/Screenshot 2026-03-30 221420.png" },
-      {nama: "Iqbal Budi Nugroho", jabatan: "Anggota", foto: "/image/DSC03343.jpg" },
-      {nama: "Nama Anggota 3", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=70" },
+      { nama: "Irsan Ali Wardaana", jabatan: "Anggota", foto: "/image/Screenshot 2026-03-30 221420.png" },
+      { nama: "Iqbal Budi Nugroho", jabatan: "Anggota", foto: "/image/DSC03343.jpg" },
+      { nama: "Nama Anggota 3", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=70" },
     ],
   },
   {
@@ -149,12 +149,107 @@ export const divisiData = [
     jumlahProgram: 7,
     anggota: [
       { nama: "Nama Kepala Divisi", jabatan: "Kepala Divisi", foto: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=70" },
-      {nama: "Nama Anggota 1", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=70" },
-      {nama: "Nama Anggota 2", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=70" },
-      {nama: "Nama Anggota 3", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=70" },
+      { nama: "Nama Anggota 1", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=70" },
+      { nama: "Nama Anggota 2", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=70" },
+      { nama: "Nama Anggota 3", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=70" },
     ],
   },
 ];
+
+// =====================
+// DATA PROGRAM KERJA
+// =====================
+export const programData = [
+  {
+    id: 1,
+    slug: "lktin-2025",
+    judul: "LKTIN FPPI 2025",
+    kategori: "Kompetisi",
+    status: "Selesai",
+    tanggal: "10 Jan 2025 – 15 Mar 2025",
+    deskripsi: "Lomba Karya Tulis Ilmiah Nasional yang diselenggarakan oleh FPPI untuk mahasiswa seluruh Indonesia.",
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=70",
+    timPelaksana: [
+      { nama: "Nama Ketua", peran: "Penanggung Jawab" },
+      { nama: "Nama Anggota 2", peran: "Koordinator" },
+      { nama: "Nama Anggota 3", peran: "Anggota" },
+    ],
+  },
+  {
+    id: 2,
+    slug: "workshop-kti-2025",
+    judul: "Workshop Karya Tulis Ilmiah",
+    kategori: "Pelatihan",
+    status: "Selesai",
+    tanggal: "5 Feb 2025 – 20 Feb 2025",
+    deskripsi: "Pelatihan penulisan karya tulis ilmiah untuk anggota baru FPPI agar siap mengikuti kompetisi nasional.",
+    image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=800&q=70",
+    timPelaksana: [
+      { nama: "Nama Ketua", peran: "Penanggung Jawab" },
+      { nama: "Nama Anggota 2", peran: "Koordinator" },
+    ],
+  },
+  {
+    id: 3,
+    slug: "forum-diskusi-ilmiah",
+    judul: "Forum Diskusi Ilmiah",
+    kategori: "Diskusi",
+    status: "Rencana",
+    tanggal: "1 Apr 2025 – 30 Apr 2025",
+    deskripsi: "Forum diskusi rutin membahas isu-isu ilmiah terkini yang melibatkan seluruh anggota FPPI.",
+    image: "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=800&q=70",
+    timPelaksana: [
+      { nama: "Nama Ketua", peran: "Penanggung Jawab" },
+      { nama: "Nama Anggota 2", peran: "Koordinator" },
+      { nama: "Nama Anggota 3", peran: "Anggota" },
+    ],
+  },
+  {
+    id: 4,
+    slug: "pkm-coaching-2025",
+    judul: "PKM Coaching Clinic",
+    kategori: "Pelatihan",
+    status: "Rencana",
+    tanggal: "10 Mei 2025 – 30 Mei 2025",
+    deskripsi: "Pendampingan intensif untuk mahasiswa yang ingin mengajukan proposal PKM pendanaan Kemendikbud.",
+    image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=70",
+    timPelaksana: [
+      { nama: "Nama Ketua", peran: "Penanggung Jawab" },
+      { nama: "Nama Anggota 2", peran: "Koordinator" },
+    ],
+  },
+  {
+    id: 5,
+    slug: "seminar-nasional-2025",
+    judul: "Seminar Nasional Penelitian",
+    kategori: "Seminar",
+    status: "Rencana",
+    tanggal: "15 Jun 2025 – 16 Jun 2025",
+    deskripsi: "Seminar nasional menghadirkan pembicara dari berbagai universitas terkemuka di Indonesia.",
+    image: "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=800&q=70",
+    timPelaksana: [
+      { nama: "Nama Ketua", peran: "Penanggung Jawab" },
+      { nama: "Nama Anggota 2", peran: "Koordinator" },
+      { nama: "Nama Anggota 3", peran: "Anggota" },
+    ],
+  },
+  {
+    id: 6,
+    slug: "upgrading-anggota-2025",
+    judul: "Upgrading Anggota FPPI",
+    kategori: "Internal",
+    status: "Rencana",
+    tanggal: "20 Jul 2025 – 22 Jul 2025",
+    deskripsi: "Program pembinaan dan pengembangan kapasitas seluruh anggota FPPI untuk periode kepengurusan baru.",
+    image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=800&q=70",
+    timPelaksana: [
+      { nama: "Nama Ketua", peran: "Penanggung Jawab" },
+      { nama: "Nama Anggota 2", peran: "Koordinator" },
+    ],
+  },
+];
+
+export type Program = (typeof programData)[number];
 
 export type Divisi = (typeof divisiData)[number];
 export type Anggota = (typeof divisiData)[number]["anggota"][number];

@@ -1,8 +1,9 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/berita/[slug]/page": "app/berita/[slug]/page.js",
   "/anggota/page": "app/anggota/page.js",
+  "/berita/page": "app/berita/page.js",
+  "/berita/[slug]/page": "app/berita/[slug]/page.js",
   "/anggota/[id]/page": "app/anggota/[id]/page.js",
-  "/berita/page": "app/berita/page.js"
+  "/program/page": "app/program/page.js",
+  "/program/[slug]/page": "app/program/[slug]/page.js"
 }
