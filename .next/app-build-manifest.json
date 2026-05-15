@@ -40,6 +40,18 @@
       "static/chunks/main-app.js",
       "static/css/app/anggota/[id]/page.css",
       "static/chunks/app/anggota/[id]/page.js"
+    ],
+    "/berita/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/berita/page.css",
+      "static/chunks/app/berita/page.js"
+    ],
+    "/berita/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/berita/[slug]/page.css",
+      "static/chunks/app/berita/[slug]/page.js"
     ]
   }
 }
