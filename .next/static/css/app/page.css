@@ -469,13 +469,20 @@
   margin-top: 40px;
 }
 
+.KetuaSection_photoWrap__vOb_f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .KetuaSection_photo__tqkZ_ {
   width: 300px;
-  height: 280px;
-  border-radius: 12px;
-  overflow: hidden;
-  background: var(--bg3);
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: transparent;
   flex-shrink: 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
 }
 
 .KetuaSection_tag__oXkMt {
@@ -488,11 +495,7 @@
   margin-bottom: 20px;
 }
 
-.KetuaSection_photo__tqkZ_ img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
 
 .KetuaSection_role__DdXZr {
   font-size: 11px;
@@ -551,8 +554,9 @@
     grid-template-columns: 1fr;
   }
   .KetuaSection_photo__tqkZ_ {
-    width: 100%;
-    height: 220px;
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
   }
 }
 

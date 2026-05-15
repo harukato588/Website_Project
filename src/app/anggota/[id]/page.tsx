@@ -1,3 +1,5 @@
+"use client";
+
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { divisiData } from "@/lib/config";
@@ -5,6 +7,22 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import styles from "./page.module.css";
 
+import { motion, Variants } from "framer-motion";
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1
+    }
+  }
+};
+
+const itemVariants: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 100 } }
+};
 export default function DetailDivisiPage({
   params,
 }: {
@@ -30,9 +48,27 @@ export default function DetailDivisiPage({
               <span>›</span>
               <span className={styles.breadcrumbActive}>{divisi.nama}</span>
             </div>
-            <h1 className={styles.heroTitle}>{divisi.nama}</h1>
-            <p className={styles.heroSub}>FPPI UKM • 2024–2025</p>
-            <div className={styles.heroStats}>
+            <motion.h1
+              className={styles.heroTitle}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+            >
+              {divisi.nama}
+            </motion.h1>
+            <motion.p
+              className={styles.heroSub}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+            >
+              FPPI UKM • 2024–2025
+            </motion.p>
+            <motion.div
+              className={styles.heroStats}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+            >
               <div className={styles.statBox}>
                 <div className={styles.statNum}>{divisi.jumlahAnggota}</div>
                 <div className={styles.statLabel}>Anggota</div>
@@ -41,7 +77,7 @@ export default function DetailDivisiPage({
                 <div className={styles.statNum}>{divisi.jumlahProgram}</div>
                 <div className={styles.statLabel}>Program Kerja</div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </section>
 
@@ -52,9 +88,14 @@ export default function DetailDivisiPage({
               Tim solid yang bergerak bersama untuk mencapai visi divisi
             </p>
           </div>
-          <div className={styles.grid}>
+          <motion.div
+            className={styles.grid}
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+          >
             {divisi.anggota.map((anggota, index) => (
-              <div key={index} className={styles.card}>
+              <motion.div key={index} variants={itemVariants} className={styles.card}>
                 <div className={styles.photoWrap}>
                   <img
                     src={anggota.foto}
@@ -66,9 +107,9 @@ export default function DetailDivisiPage({
                   <div className={styles.cardName}>{anggota.nama}</div>
                   <div className={styles.cardJabatan}>{anggota.jabatan}</div>
                 </div>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </section>
       </main>
       <Footer />
