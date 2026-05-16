@@ -1,8 +1,7 @@
 {
-  "/program/page": "app/program/page.js",
-  "/page": "app/page.js",
   "/anggota/[id]/page": "app/anggota/[id]/page.js",
-  "/berita/page": "app/berita/page.js",
   "/anggota/page": "app/anggota/page.js",
-  "/berita/[slug]/page": "app/berita/[slug]/page.js"
+  "/berita/page": "app/berita/page.js",
+  "/berita/[slug]/page": "app/berita/[slug]/page.js",
+  "/page": "app/page.js"
 }

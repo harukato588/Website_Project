@@ -4,15 +4,21 @@ import styles from "./AboutSection.module.css";
 export default function AboutSection() {
   return (
     <section className={styles.about}>
-      <span className="section-tag">Tentang Kami</span>
-      <h2 className="section-title" style={{ fontSize: "clamp(2rem, 4vw, 3rem)", marginBottom: "32px"}}>
-        Mengenal <span>FPPI</span> Lebih Dekat
-      </h2>
+      {/* 1. BAGIAN YANG DIUBAH: Menambahkan wrapper styles.titleWrap */}
+      <div className={styles.titleWrap}>
+        <span className="section-tag">Tentang Kami</span>
+        <h2 className="section-title">
+          Mengenal <span>FPPI</span> Lebih Dekat
+        </h2>
+      </div>
+
       <div className={styles.grid}>
         <div className={styles.text}>
           <p>
             Forum Penalaran Penelitian Ilmiah (FPPI) bukan sekadar organisasi mahasiswa biasa; kami adalah pusat inkubasi pemikiran kritis dan inovasi kreatif. Berdiri sebagai wadah bagi para peneliti muda, FPPI berkomitmen untuk membangun ekosistem akademik yang dinamis melalui budaya literasi, riset yang terukur, dan penulisan ilmiah yang berdampak.
-Kami percaya bahwa mahasiswa adalah agen perubahan yang harus dibekali dengan kemampuan analisis yang tajam. Melalui berbagai program pengembangan—mulai dari workshop metodologi penelitian hingga kompetisi karya tulis tingkat nasional—FPPI hadir untuk mencetak generasi intelektual yang tidak hanya mampu mengidentifikasi masalah, tetapi juga merumuskan solusi nyata bagi masyarakat.
+          </p>
+          <p>
+            Kami percaya bahwa mahasiswa adalah agen perubahan yang harus dibekali dengan kemampuan analisis yang tajam. Melalui berbagai program pengembangan—mulai dari workshop metodologi penelitian hingga kompetisi karya tulis tingkat nasional—FPPI hadir untuk mencetak generasi intelektual yang tidak hanya mampu mengidentifikasi masalah, tetapi juga merumuskan solusi nyata bagi masyarakat.
           </p>
           <p>
             Melalui berbagai program unggulan seperti pelatihan karya tulis ilmiah, diskusi ilmiah,

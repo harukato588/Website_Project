@@ -8,6 +8,7 @@ export default function KetuaSection() {
         <div className={styles.info}>
           <span className={styles.tag}> Sambutan</span>
           <h2 className={styles.name}>{ketuaData.name}</h2>
+          <p className={styles.role}>{ketuaData.role}</p>
           <p className={styles.desc}>{ketuaData.description}</p>
           <div className={styles.namaFormal}>{ketuaData.nameFormal}</div>
         </div>

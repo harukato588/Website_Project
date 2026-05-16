@@ -100,7 +100,7 @@ export const navLinks = [
 export const divisiData = [
   {
     id: "pengurus-harian",
-    nama: "Pengurus Harian",
+    nama: "The Government",
     deskripsi: "Inti kepemimpinan FPPI yang bertanggung jawab atas koordinasi dan arah organisasi.",
     foto: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=70",
     jumlahAnggota: 5,
@@ -114,7 +114,7 @@ export const divisiData = [
   },
   {
     id: "penelitian-karya-ilmiah",
-    nama: "Penelitian & Karya Ilmiah",
+    nama: "Research and Development",
     deskripsi: "Divisi yang berfokus pada pengembangan penelitian dan karya tulis ilmiah anggota.",
     foto: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=70",
     jumlahAnggota: 12,
@@ -128,7 +128,7 @@ export const divisiData = [
   },
   {
     id: "media-komunikasi",
-    nama: "Media & Komunikasi",
+    nama: " Digital and Technical Support",
     deskripsi: "Divisi yang mengelola media sosial, publikasi, dan komunikasi organisasi.",
     foto: "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=800&q=70",
     jumlahAnggota: 8,
@@ -142,13 +142,27 @@ export const divisiData = [
   },
   {
     id: "pengembangan-sdm",
-    nama: "Pengembangan SDM",
+    nama: "Human and Resource Developtment",
     deskripsi: "Divisi yang berfokus pada pelatihan, pembinaan, dan pengembangan potensi anggota.",
     foto: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=800&q=70",
     jumlahAnggota: 10,
     jumlahProgram: 7,
     anggota: [
       { nama: "Nama Kepala Divisi", jabatan: "Kepala Divisi", foto: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=70" },
+      { nama: "Nama Anggota 1", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=70" },
+      { nama: "Nama Anggota 2", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=70" },
+      { nama: "Nama Anggota 3", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=70" },
+    ],
+  },
+  {
+    id: "public-relation-communication",
+    nama: "Public Relation and Communication",
+    deskripsi: "Divisi yang bertanggung jawab untuk membangun relasi, komunikasi publik, dan kerjasama eksternal.",
+    foto: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=70",
+    jumlahAnggota: 4,
+    jumlahProgram: 3,
+    anggota: [
+      { nama: "Nama Kepala Divisi", jabatan: "Kepala Divisi", foto: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=70" },
       { nama: "Nama Anggota 1", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=70" },
       { nama: "Nama Anggota 2", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=70" },
       { nama: "Nama Anggota 3", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=70" },

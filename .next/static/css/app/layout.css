@@ -52,8 +52,9 @@ body {
   font-family: "Syne", sans-serif;
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 23px;
+  line-height: normal;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .section-title span {

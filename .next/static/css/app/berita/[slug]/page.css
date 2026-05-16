@@ -23,34 +23,26 @@
 .Navbar_logo__Am5h2 {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   text-decoration: none;
 }
 
-.Navbar_logoIcon__Glpg8 {
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--blue), #8b5cf6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.Navbar_logoTextMain__lVB75 {
   font-family: "Syne", sans-serif;
   font-weight: 800;
-  font-size: 11px;
-  color: #fff;
+  font-size: 24px;
+  background: linear-gradient(135deg, var(--blue), #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   letter-spacing: -0.5px;
 }
 
-.Navbar_logoText__WcSgJ {
+.Navbar_logoTextSub__3_GkP {
   font-family: "Syne", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text);
-}
-
-.Navbar_logoAccent__ymUth {
-  color: var(--blue2);
 }
 
 .Navbar_links__c080l {

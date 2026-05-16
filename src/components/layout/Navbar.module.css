@@ -18,34 +18,26 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   text-decoration: none;
 }
 
-.logoIcon {
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--blue), #8b5cf6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.logoTextMain {
   font-family: "Syne", sans-serif;
   font-weight: 800;
-  font-size: 11px;
-  color: #fff;
+  font-size: 24px;
+  background: linear-gradient(135deg, var(--blue), #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   letter-spacing: -0.5px;
 }
 
-.logoText {
+.logoTextSub {
   font-family: "Syne", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text);
-}
-
-.logoAccent {
-  color: var(--blue2);
 }
 
 .links {

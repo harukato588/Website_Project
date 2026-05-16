@@ -118,34 +118,26 @@
 .Navbar_logo__Am5h2 {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   text-decoration: none;
 }
 
-.Navbar_logoIcon__Glpg8 {
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--blue), #8b5cf6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.Navbar_logoTextMain__lVB75 {
   font-family: "Syne", sans-serif;
   font-weight: 800;
-  font-size: 11px;
-  color: #fff;
+  font-size: 24px;
+  background: linear-gradient(135deg, var(--blue), #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   letter-spacing: -0.5px;
 }
 
-.Navbar_logoText__WcSgJ {
+.Navbar_logoTextSub__3_GkP {
   font-family: "Syne", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text);
-}
-
-.Navbar_logoAccent__ymUth {
-  color: var(--blue2);
 }
 
 .Navbar_links__c080l {
@@ -261,15 +253,15 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/sections/DivisiGrid.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************/
 .DivisiGrid_section__Zs9lD {
-    background : var(--bg);
-    padding: 56px 5% 80px;
+  background: var(--bg);
+  padding: 56px 5% 80px;
 }
 
 .DivisiGrid_grid__rxqvr {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  gap: 20px;
 }
 
 
@@ -284,22 +276,30 @@
   border: 1px solid var(--border);
   transition: transform 0.3s, border-color 0.3s;
 }
- 
+
 .DivisiGrid_card__loRgH:hover {
   transform: translateY(-4px);
   border-color: rgba(59, 127, 245, 0.5);
 }
- 
+
 /* Highlight card pertama (aktif/featured) */
 .DivisiGrid_card__loRgH:first-child {
   border-color: var(--blue);
 }
- 
+
+/* Jika card terakhir adalah ganjil (misal ke-5), letakkan di tengah */
+.DivisiGrid_card__loRgH:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  max-width: calc(50% - 10px);
+  margin: 0 auto;
+  width: 100%;
+}
+
 .DivisiGrid_cardBg__agXBs {
   position: absolute;
   inset: 0;
 }
- 
+
 .DivisiGrid_cardImg__RLGja {
   width: 100%;
   height: 100%;
@@ -307,32 +307,28 @@
   transition: transform 0.4s;
   filter: grayscale(20%);
 }
- 
+
 .DivisiGrid_card__loRgH:hover .DivisiGrid_cardImg__RLGja {
   transform: scale(1.05);
 }
- 
+
 .DivisiGrid_cardOverlay___tYjq {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(5, 7, 16, 0.92) 0%,
-    rgba(5, 7, 16, 0.5) 50%,
-    rgba(5, 7, 16, 0.2) 100%
-  );
+  background: linear-gradient(to top,
+      rgba(5, 7, 16, 0.92) 0%,
+      rgba(5, 7, 16, 0.5) 50%,
+      rgba(5, 7, 16, 0.2) 100%);
   transition: background 0.3s;
 }
- 
+
 .DivisiGrid_card__loRgH:hover .DivisiGrid_cardOverlay___tYjq {
-  background: linear-gradient(
-    to top,
-    rgba(5, 7, 16, 0.95) 0%,
-    rgba(10, 30, 80, 0.6) 50%,
-    rgba(10, 30, 80, 0.25) 100%
-  );
+  background: linear-gradient(to top,
+      rgba(5, 7, 16, 0.95) 0%,
+      rgba(10, 30, 80, 0.6) 50%,
+      rgba(10, 30, 80, 0.25) 100%);
 }
- 
+
 /* Arrow */
 .DivisiGrid_arrow__9xP39 {
   position: absolute;
@@ -343,12 +339,12 @@
   font-size: 18px;
   transition: color 0.2s, transform 0.2s;
 }
- 
+
 .DivisiGrid_card__loRgH:hover .DivisiGrid_arrow__9xP39 {
   color: var(--blue2);
   transform: translate(2px, -2px);
 }
- 
+
 /* Content */
 .DivisiGrid_cardContent__0ybgs {
   position: absolute;
@@ -358,7 +354,7 @@
   z-index: 2;
   padding: 20px 24px;
 }
- 
+
 .DivisiGrid_cardName___w_9S {
   font-family: "Syne", sans-serif;
   font-size: clamp(1.1rem, 2vw, 1.4rem);
@@ -368,11 +364,11 @@
   line-height: 1.3;
   transition: color 0.2s;
 }
- 
+
 .DivisiGrid_card__loRgH:hover .DivisiGrid_cardName___w_9S {
   color: var(--blue2);
 }
- 
+
 .DivisiGrid_cardDesc__S9Ovg {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6);
@@ -383,13 +379,13 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
- 
+
 .DivisiGrid_cardStats__Xa5j5 {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
 }
- 
+
 .DivisiGrid_statBadge___Z8N_ {
   display: inline-flex;
   align-items: center;
@@ -403,12 +399,19 @@
   padding: 4px 12px;
   border-radius: 20px;
 }
- 
+
 @media (max-width: 768px) {
   .DivisiGrid_grid__rxqvr {
     grid-template-columns: 1fr;
   }
+
   .DivisiGrid_card__loRgH {
     aspect-ratio: 4 / 3;
+  }
+
+  .DivisiGrid_card__loRgH:last-child:nth-child(odd) {
+    grid-column: auto;
+    max-width: 100%;
+    margin: 0;
   }
 }

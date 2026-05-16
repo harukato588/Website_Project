@@ -17,18 +17,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/template.js"
     ],
-    "/program/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/program/page.css",
-      "static/chunks/app/program/page.js"
-    ],
-    "/program/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/program/[slug]/page.css",
-      "static/chunks/app/program/[slug]/page.js"
-    ],
     "/anggota/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

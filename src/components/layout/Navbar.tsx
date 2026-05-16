@@ -13,10 +13,8 @@ export default function Navbar() {
       <div className={styles.inner}>
         {/* Logo */}
         <Link href="/" className={styles.logo}>
-          <div className={styles.logoIcon}>FPPI</div>
-          <span className={styles.logoText}>
-            <span className={styles.logoAccent}>UKM</span>
-          </span>
+          <span className={styles.logoTextMain}>FPPI</span>
+          <span className={styles.logoTextSub}>UKM</span>
         </Link>
 
         {/* Desktop Links */}
