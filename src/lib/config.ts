@@ -136,7 +136,7 @@ export const divisiData = [
     anggota: [
       { nama: "Dylan putry Setyono", jabatan: "Kepala Divisi", foto: "/image/Screenshot 2026-03-30 122807.png" },
       { nama: "Irsan Ali Wardaana", jabatan: "Anggota", foto: "/image/Screenshot 2026-03-30 221420.png" },
-      { nama: "Iqbal Budi Nugroho", jabatan: "Anggota", foto: "/public/images/DSC03343.jpg" },
+      { nama: "Iqbal Budi Nugroho", jabatan: "Anggota", foto: "/image/DSC03343.JPG" },
       { nama: "Nama Anggota 3", jabatan: "Anggota", foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=70" },
     ],
   },
