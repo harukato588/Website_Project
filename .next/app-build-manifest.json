@@ -17,6 +17,12 @@
       "static/chunks/main-app.js",
       "static/chunks/app/template.js"
     ],
+    "/program/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/program/page.css",
+      "static/chunks/app/program/page.js"
+    ],
     "/anggota/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -34,12 +40,6 @@
       "static/chunks/main-app.js",
       "static/css/app/berita/page.css",
       "static/chunks/app/berita/page.js"
-    ],
-    "/berita/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/berita/[slug]/page.css",
-      "static/chunks/app/berita/[slug]/page.js"
     ]
   }
 }

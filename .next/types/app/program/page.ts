@@ -1,8 +1,8 @@
-// File: D:\project_fppi - Copy\fppi\src\app\berita\[slug]\page.tsx
-import * as entry from '../../../../../src/app/berita/[slug]/page.js'
+// File: D:\project_fppi - Copy\fppi\src\app\program\page.tsx
+import * as entry from '../../../../src/app/program/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../src/app/berita/[slug]/page.js')
+type TEntry = typeof import('../../../../src/app/program/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

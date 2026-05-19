@@ -382,6 +382,24 @@
 .AboutSection_about__niuJD {
   background: var(--bg2);
   padding: 72px 5%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.AboutSection_titleWrap__IRyng,
+.AboutSection_grid__bqwBg {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .AboutSection_about__niuJD .section-title {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    line-height: 1.3;
+    word-wrap: break-word;
+    overflow: break-word;
+    white-space: normal !important;
+    margin-bottom: 24px;
+  }
 }
 
 .AboutSection_grid__bqwBg {
@@ -390,7 +408,7 @@
   grid-gap: 48px;
   gap: 48px;
   align-items: start;
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 .AboutSection_text__g22_l p {
